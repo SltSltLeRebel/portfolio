@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithms on Alexis Bouchez</title>
+    <link>https://www.alexisbouchez.com/blog/algorithms/</link>
+    <description>Recent content in algorithms on Alexis Bouchez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2021, Alexis Bouchez.</copyright>
+    <lastBuildDate>Tue, 23 Mar 2021 18:58:05 +0200</lastBuildDate><atom:link href="https://www.alexisbouchez.com/blog/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implement a Binary Tree Using Typescript</title>
+      <link>https://www.alexisbouchez.com/implement-a-binary-tree-using-typescript/</link>
+      <pubDate>Tue, 23 Mar 2021 18:58:05 +0200</pubDate>
+      
+      <guid>https://www.alexisbouchez.com/implement-a-binary-tree-using-typescript/</guid>
+      <description>Introduction The purpose of this article is to implement a binary tree, using Typescript and the concept of &amp;ldquo;genericity&amp;rdquo;.
+Genericity allows us to specify a type for our binary tree (number, string, &amp;hellip;).
+Implementation Single Node Defining the fields class SingleNode&amp;lt;T&amp;gt; { private value: T; private left: SingleNode&amp;lt;T&amp;gt; | null; private right: SingleNode&amp;lt;T&amp;gt; | null; // ... } Defining the constructor class SingleNode&amp;lt;T&amp;gt; { // ...  constructor( value: T, left: SingleNode&amp;lt;T&amp;gt; | null = null, right: SingleNode&amp;lt;T&amp;gt; | null = null ) { this.</description>
+    </item>
+    
+  </channel>
+</rss>
